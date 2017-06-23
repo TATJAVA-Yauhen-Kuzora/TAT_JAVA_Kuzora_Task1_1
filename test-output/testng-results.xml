@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="53" started-at="2017-06-23T09:56:55Z" finished-at="2017-06-23T09:56:55Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="53" started-at="2017-06-23T09:56:55Z" finished-at="2017-06-23T09:56:55Z">
+      <class name="project.pr1.ParserTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:project.pr1.ParserTest@6a2bcfcb]" name="beforeMethod" is-config="true" duration-ms="5" started-at="2017-06-23T12:56:55Z" finished-at="2017-06-23T12:56:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="tst_parseToChars(java.lang.String, [C)[pri:0, instance:project.pr1.ParserTest@6a2bcfcb]" name="tst_parseToChars" duration-ms="7" started-at="2017-06-23T12:56:55Z" data-provider="dp" finished-at="2017-06-23T12:56:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1111]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[C@2038ae61]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tst_parseToChars -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:project.pr1.ParserTest@6a2bcfcb]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-06-23T12:56:55Z" finished-at="2017-06-23T12:56:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:project.pr1.ParserTest@6a2bcfcb]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-06-23T12:56:55Z" finished-at="2017-06-23T12:56:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="tst_parseToChars(java.lang.String, [C)[pri:0, instance:project.pr1.ParserTest@6a2bcfcb]" name="tst_parseToChars" duration-ms="3" started-at="2017-06-23T12:56:55Z" data-provider="dp" finished-at="2017-06-23T12:56:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcde]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[C@3c0f93f1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tst_parseToChars -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:project.pr1.ParserTest@6a2bcfcb]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-06-23T12:56:55Z" finished-at="2017-06-23T12:56:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:project.pr1.ParserTest@6a2bcfcb]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-06-23T12:56:55Z" finished-at="2017-06-23T12:56:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="tst_parseToChars(java.lang.String, [C)[pri:0, instance:project.pr1.ParserTest@6a2bcfcb]" name="tst_parseToChars" duration-ms="2" started-at="2017-06-23T12:56:55Z" data-provider="dp" finished-at="2017-06-23T12:56:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ -+@a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[C@31dc339b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tst_parseToChars -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:project.pr1.ParserTest@6a2bcfcb]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-06-23T12:56:55Z" finished-at="2017-06-23T12:56:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- project.pr1.ParserTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
