@@ -28,7 +28,7 @@ public class OneDimensionalArray {
 		for (int i = 0; i < array1.array.length; i++) {
 			array.getArray()[i] = array1.getArray()[i];
 		}
-		for (int i = k; i < array1.array.length; i++) {
+		for (int i = array1.array.length - 1; i >= k; i--) {
 			array.getArray()[i + array2.array.length] = array.getArray()[i];
 		}
 		for (int i = 0; i < array2.array.length; i++) {
