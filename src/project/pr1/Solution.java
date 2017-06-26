@@ -11,6 +11,5 @@ class Solution {
 		fourDNumber = helper.inputFourDigitNumber(checker);
 		result = checker.isTrue((parser.parseToChars(fourDNumber)));
 		helper.printResults(fourDNumber, result);
-		
 	}
 }
